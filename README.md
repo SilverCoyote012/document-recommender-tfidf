@@ -56,6 +56,8 @@ pip install -r requirements.txt
 
 ## Execution steps
 
+> **Windows:** if `python` or `pip` is not recognized, install Python from https://www.python.org/downloads/ (check **"Add python.exe to PATH"**) and use the launcher instead: `py -m pip install -r requirements.txt` and `py main.py --id DOC009`.
+
 1. Get the files, either by unzipping the submitted folder or by cloning the repository:
    ```bash
    git clone https://github.com/SilverCoyote012/document-recommender-tfidf.git
