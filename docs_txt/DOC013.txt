@@ -1,0 +1,3 @@
+Postmortem: Office Network Slowness
+
+Incident summary: for two days users reported slow network performance and slow access to applications. Root cause: a switch with outdated firmware was causing packet loss. Resolution: the firmware was updated and a damaged cable was replaced. Lessons learned: monitor network traffic and schedule preventive maintenance.

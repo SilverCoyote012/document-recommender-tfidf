@@ -1,0 +1,3 @@
+Data Backup Policy
+
+Servers are backed up daily and backups are stored encrypted in an offsite location. Employees must save their work files in the corporate cloud folder, which is backed up automatically. The information security team tests backup restoration every quarter.

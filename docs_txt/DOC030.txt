@@ -1,0 +1,3 @@
+Mandatory Multi-Factor Authentication
+
+Starting next month, multi-factor authentication will be mandatory for email, VPN and internal systems. Each employee must install the authenticator app on their phone and register their account. Multi-factor authentication reduces the risk of unauthorized access even if a password is stolen.

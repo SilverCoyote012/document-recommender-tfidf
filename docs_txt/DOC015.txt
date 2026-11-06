@@ -1,0 +1,3 @@
+Ticket: Shared Folder Access Error
+
+Ticket #1060. User reports an access denied error when opening a shared folder for the Sales team. Support reviewed the permissions and the user was not in the correct group. Resolution: the user was added to the group with approval from the team manager. Status: closed. Priority: medium.

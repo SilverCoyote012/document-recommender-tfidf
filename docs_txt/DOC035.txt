@@ -1,0 +1,3 @@
+FAQ: How Do I Connect to the VPN?
+
+Question: How do I connect to the VPN from home? Answer: Open the VPN client installed on your laptop, enter your username and password and confirm with the authenticator app. If you cannot connect, open a ticket with support and include the error message.

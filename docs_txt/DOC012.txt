@@ -1,0 +1,3 @@
+Ticket: Email Password Reset
+
+Ticket #1045. User cannot log in to email because they forgot their password and the account was locked. Support verified the user's identity by phone. Resolution: the account was unlocked and a temporary password was sent. Status: closed. Priority: high.

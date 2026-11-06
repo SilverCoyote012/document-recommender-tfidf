@@ -1,0 +1,3 @@
+Ticket: Third Floor Printer Not Printing
+
+Ticket #1031. Several users report that the third floor printer is not printing and jobs are stuck in the queue. Support checked the print server and the print service was stopped. Resolution: the print service was restarted and the queue was cleared. Status: closed. Priority: low.

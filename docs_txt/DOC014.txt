@@ -1,0 +1,3 @@
+Ticket: Laptop Will Not Turn On
+
+Ticket #1052. User reports that their laptop will not turn on after an update. Support tried a forced restart without success. Resolution: a loaner laptop was provided and the device was sent to the vendor under warranty. Status: waiting on vendor. Priority: high.

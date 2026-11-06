@@ -1,0 +1,3 @@
+Notice: Approval Workflow Change
+
+Starting Monday, small purchase approvals will be done directly in the system.

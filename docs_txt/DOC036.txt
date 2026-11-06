@@ -1,0 +1,3 @@
+FAQ: How Do I Book a Meeting Room?
+
+Question: How do I book a meeting room? Answer: In your email calendar, create a meeting and add the room as a guest. If the room is available, the booking is confirmed automatically. Rooms can be booked for a maximum of two hours.

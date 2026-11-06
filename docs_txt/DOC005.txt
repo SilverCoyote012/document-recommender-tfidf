@@ -1,0 +1,3 @@
+New Supplier Onboarding Process
+
+To register a new supplier, the following documents are required: tax registration, bank account statement and a signed contract. Purchasing validates the documents and sends them to Finance for registration in the system. The process takes about five business days. Purchase orders cannot be issued to suppliers that are not registered.

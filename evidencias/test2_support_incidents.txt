@@ -1,0 +1,18 @@
+Test 2 - Seed document from Support/Incidents
+=============================================
+
+$ python main.py --id DOC009
+
+INPUT  > Seed document: DOC009 | Ticket: VPN Will Not Connect [Support/Incidents]
+OUTPUT > Top-5 similar documents (seed excluded):
+
+#  ID      Score   Category           Title
+------------------------------------------------------------------------------
+1  DOC015  0.2120  Support/Incidents  Ticket: Shared Folder Access Error
+2  DOC035  0.1965  FAQ                FAQ: How Do I Connect to the VPN?
+3  DOC012  0.1834  Support/Incidents  Ticket: Email Password Reset
+4  DOC014  0.1045  Support/Incidents  Ticket: Laptop Will Not Turn On
+5  DOC010  0.0821  Support/Incidents  Ticket: Third Floor Printer Not Printing
+
+Comment:
+Coherent. 4 of the 5 results are Support/Incidents tickets, and the FAQ on how to connect to the VPN (DOC035) is exactly the knowledge an agent would need to solve this ticket. DOC015 ranks first because it shares 'access' and 'error' plus the whole ticket template ('user reports', 'support verified', 'status: closed', 'priority: medium'). The lower results (printer, laptop) match mainly that template, which shows that TF-IDF also picks up the document format, not only the topic.

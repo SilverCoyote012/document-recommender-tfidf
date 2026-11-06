@@ -1,0 +1,3 @@
+Alert: Phishing Emails
+
+The information security team detected phishing emails pretending to come from Finance and asking employees to update their bank details. Do not open links or download attachments from unknown senders. Always check the sender's address. If you received one of these emails, report it immediately to the security team and delete it.

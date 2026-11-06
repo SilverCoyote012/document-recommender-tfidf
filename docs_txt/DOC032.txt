@@ -1,0 +1,3 @@
+News: Rise in Ransomware Attacks
+
+Recent security reports show an increase in ransomware attacks against mid-sized companies. Attackers encrypt company data and demand a ransom. The main recommendations are to keep backups up to date, apply security patches and train employees to recognize phishing.

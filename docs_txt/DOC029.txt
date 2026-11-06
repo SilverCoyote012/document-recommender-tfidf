@@ -1,0 +1,3 @@
+Security Incident Response Procedure
+
+In case of a security incident, such as a virus, unauthorized access or data leak, the employee must report it immediately to support and the security team. The team isolates the affected device, analyzes the cause and contains the incident. The incident is then documented and actions are defined to prevent it from happening again.

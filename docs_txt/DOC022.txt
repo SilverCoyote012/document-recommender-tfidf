@@ -1,0 +1,3 @@
+Employee Offboarding Process
+
+When an employee leaves the company, the direct manager notifies Human Resources. Human Resources calculates the final payment and schedules an exit interview. The employee must return their equipment, badge and access cards. Human Resources asks IT to disable the employee's accounts on their last day.

@@ -1,0 +1,3 @@
+Password Policy
+
+Passwords must be at least twelve characters long and include uppercase letters, lowercase letters, numbers and symbols. Passwords must be changed every ninety days and the last five passwords cannot be reused. Sharing passwords or writing them in visible places is prohibited. After five failed login attempts the account is locked for security.

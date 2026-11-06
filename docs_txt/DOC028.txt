@@ -1,0 +1,3 @@
+Information Classification
+
+Company information is classified as public, internal, confidential or restricted. Confidential information can only be shared with authorized staff and must be encrypted when sent by email. Restricted information requires approval from the information owner before access is granted. Every employee is responsible for protecting the information they handle.

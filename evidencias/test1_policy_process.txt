@@ -1,0 +1,18 @@
+Test 1 - Seed document from Policy/Process
+==========================================
+
+$ python main.py --id DOC001
+
+INPUT  > Seed document: DOC001 | Travel Expense Approval Policy [Policy/Process]
+OUTPUT > Top-5 similar documents (seed excluded):
+
+#  ID      Score   Category           Title
+------------------------------------------------------------------------------
+1  DOC034  0.2315  FAQ                FAQ: How Do I Get an Expense Reimbursed?
+2  DOC003  0.0902  Policy/Process     Remote Work Policy
+3  DOC017  0.0850  HR                 Vacation Policy
+4  DOC039  0.0836  FAQ                FAQ: How Do I Request New Equipment?
+5  DOC004  0.0769  Policy/Process     Monthly Accounting Close Procedure
+
+Comment:
+Coherent. The top result (DOC034, FAQ: How Do I Get an Expense Reimbursed?) is the most useful match: it shares the key terms expense, receipts, approval and reimbursed with the travel expense policy. DOC004 (accounting close) is also finance-related. DOC003, DOC017 and DOC039 have low scores (< 0.10); they appear because they share generic policy phrases such as 'approved by the direct manager' and 'employees', not the same topic.

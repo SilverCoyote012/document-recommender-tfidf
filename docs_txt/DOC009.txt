@@ -1,0 +1,3 @@
+Ticket: VPN Will Not Connect
+
+Ticket #1024. User reports that the VPN will not connect from home and shows a timeout error. Support verified that the user's access is enabled. Resolution: the VPN client was reinstalled and the certificate was updated. The user confirms the connection now works. Status: closed. Priority: medium.

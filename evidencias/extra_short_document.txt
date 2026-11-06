@@ -1,0 +1,18 @@
+Extra - Limitation with a short, ambiguous document
+===================================================
+
+$ python main.py --id DOC016
+
+INPUT  > Seed document: DOC016 | Ticket: Not Working [Support/Incidents]
+OUTPUT > Top-5 similar documents (seed excluded):
+
+#  ID      Score   Category           Title
+------------------------------------------------------------------------------
+1  DOC012  0.0353  Support/Incidents  Ticket: Email Password Reset
+2  DOC014  0.0336  Support/Incidents  Ticket: Laptop Will Not Turn On
+3  DOC033  0.0336  FAQ                FAQ: How Do I Request Vacation?
+4  DOC009  0.0323  Support/Incidents  Ticket: VPN Will Not Connect
+5  DOC015  0.0313  Support/Incidents  Ticket: Shared Folder Access Error
+
+Comment:
+Not coherent, on purpose. DOC016 ('Ticket: Not Working') has only 9 words and no specific system named. All scores are below 0.04, so the ranking is close to random and even includes a vacation FAQ. This shows the limitation of very short documents: a real system should flag low-confidence results (e.g., score < 0.10) instead of showing them as recommendations.

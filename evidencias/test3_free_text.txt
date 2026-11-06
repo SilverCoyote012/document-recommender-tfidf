@@ -1,0 +1,18 @@
+Test 3 - Free-text query
+========================
+
+$ python main.py --text "I received a suspicious email asking me to confirm my password, what should I do?"
+
+INPUT  > Query text: "I received a suspicious email asking me to confirm my password, what should I do?"
+OUTPUT > Top-5 most similar documents:
+
+#  ID      Score   Category           Title
+------------------------------------------------------------------------------
+1  DOC012  0.1538  Support/Incidents  Ticket: Email Password Reset
+2  DOC026  0.1252  IT Security        Alert: Phishing Emails
+3  DOC035  0.1149  FAQ                FAQ: How Do I Connect to the VPN?
+4  DOC030  0.0704  IT Security        Mandatory Multi-Factor Authentication
+5  DOC025  0.0387  IT Security        Password Policy
+
+Comment:
+Mostly coherent. The phishing alert (DOC026), the MFA policy (DOC030) and the password policy (DOC025) are the right documents for this question. However, the VPN FAQ (DOC035) sneaks in only because it mentions 'password', and the first result is the password reset ticket (DOC012), because it repeats the literal words 'email' and 'password' more often. The query never says 'phishing', so TF-IDF cannot know that 'suspicious email' means phishing: a clear example of the synonym limitation that embeddings would reduce.

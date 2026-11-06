@@ -1,0 +1,3 @@
+Purchasing and Supplier Request Process
+
+To make a purchase, the requester fills out a purchase requisition form and sends it to Purchasing. Purchasing requests at least three quotes from approved suppliers. The requisition must be approved by the budget owner. Once approved, Purchasing issues the purchase order and follows up on delivery. Any purchase outside this process must be justified in writing.
