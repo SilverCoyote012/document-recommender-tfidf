@@ -2,6 +2,8 @@
 
 Sistemas y Tecnologías de Administración del Conocimiento — Universidad Tecmilenio
 
+Repository: https://github.com/SilverCoyote012/document-recommender-tfidf
+
 Team: Ricardo Rubén Amaro Vázquez (AL07003220), Jorge Eliud Marroquín López (AL03011384), Juan Humberto Espinoza Arciva (AL03107716), Edson Alfonso González Vela (AL02891583).
 
 ## Objective
@@ -23,7 +25,7 @@ Build a content-based document recommender for an internal knowledge repository.
 ### Expected file structure
 
 ```text
-document-recommender-tfidf/   (or Actividad-3/ in the .zip)
+Actividad-3/                # or document-recommender-tfidf/ when cloned from GitHub
 ├── recommender.py          # core logic (functions + TfidfRecommender class)
 ├── main.py                 # execution interface (menu / --id / --text)
 ├── run_tests.py            # regenerates the evidence of the tests
@@ -54,7 +56,12 @@ pip install -r requirements.txt
 
 ## Execution steps
 
-1. Open a terminal in this folder.
+1. Get the files, either by unzipping the submitted folder or by cloning the repository:
+   ```bash
+   git clone https://github.com/SilverCoyote012/document-recommender-tfidf.git
+   cd document-recommender-tfidf
+   ```
+   Then open a terminal in that folder.
 2. (Optional) Create a virtual environment: `python -m venv .venv`, then activate it (`.venv\Scripts\activate` on Windows, `source .venv/bin/activate` on macOS/Linux).
 3. Install the dependencies: `pip install -r requirements.txt`.
 4. Run the program in one of these ways:
